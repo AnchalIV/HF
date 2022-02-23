@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-21T09:45:12 IST" name="Default suite" finished-at="2022-02-21T09:45:24 IST" duration-ms="12568">
+    <groups>
+    </groups>
+    <test started-at="2022-02-21T09:45:12 IST" name="Default test" finished-at="2022-02-21T09:45:24 IST" duration-ms="12568">
+      <class name="Runner.TestCase">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Runner.TestCase@5876a9af]" started-at="2022-02-21T09:45:12 IST" name="beforeSuite" finished-at="2022-02-21T09:45:12 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.reflect.Method)[pri:0, instance:Runner.TestCase@5876a9af]" started-at="2022-02-21T09:45:12 IST" name="launchbrowser" finished-at="2022-02-21T09:45:19 IST" duration-ms="7103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Runner.TestCase.ulogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="ulogin()[pri:0, instance:Runner.TestCase@5876a9af]" started-at="2022-02-21T09:45:19 IST" name="ulogin" finished-at="2022-02-21T09:45:24 IST" duration-ms="5445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ulogin -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.TestCase@5876a9af]" started-at="2022-02-21T09:45:24 IST" name="afterSuite" finished-at="2022-02-21T09:45:25 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Runner.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
